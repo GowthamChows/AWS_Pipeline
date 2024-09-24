@@ -5,5 +5,5 @@ set -e
 docker pull gowthamuppalapati/hotel-app:latest
 
 # Run the Docker image as a container
-docker run -dit -p 80:80 gowthamuppalapati/hotel-app
+docker run -dit -p 8080:8080 gowthamuppalapati/hotel-app
 
