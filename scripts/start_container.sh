@@ -2,7 +2,7 @@
 set -e
 
 # Pull the Docker image from Docker Hub
-docker pull gowthamuppalapti/hotel-app:latest
+docker pull gowthamuppalapati/hotel-app:latest
 
 # Run the Docker image as a container
 docker run -dit -p 80:80 gowthamuppalapati/hotel-app
